@@ -6,17 +6,25 @@ body, html {
   position: relative;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  
 }
 
 body p {
   font-size: 16px;
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
 }
 
-svg {
+img {
   display: block;
 }
 
-.box1 svg {
+body h1 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+}
+
+.box1 img {
   display: block; 
   height: auto;
   max-width: 100%;
@@ -66,4 +74,28 @@ svg {
 
 .last-item {
   border: none;
+}
+
+.faq-minus-icon {
+  display: none;
+}
+
+.display-minus-icon {
+  display: block;
+}
+
+.hide-plus-icon {
+  display: none;
+}
+/* For the mobile design  */
+@media (max-width: 414px) {
+  .box1 {
+    height: 370px;
+    background: url('/assets/images/background-pattern-mobile.svg') no-repeat top center;
+    background-size: cover;
+  }
+
+  .overlapped-box {
+    width: min(90%, 650px);
+  }
 }
