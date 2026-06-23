@@ -5,7 +5,7 @@ imageElements.forEach((image, index) => {
   image.addEventListener('click', () => {
     if(moreParagraphs[index].innerHTML === '') {
       let pargagraph = moreParagraphs[index];
-      image.src = '/assets/images/icon-minus.svg';
+      image.src = './assets/images/icon-minus.svg';
       
       if(pargagraph === moreParagraphs[0]) {
         pargagraph.innerHTML = `Frontend Mentor offers realistic coding challenges to help developers improve their 
@@ -22,7 +22,7 @@ imageElements.forEach((image, index) => {
         channel where you can ask questions and seek support from other community members.`;
       }
     } else {
-      image.src = '/assets/images/icon-plus.svg';
+      image.src = './assets/images/icon-plus.svg';
       moreParagraphs[index].classList.add('js-more-description');
       moreParagraphs[index].innerHTML = '';
     }

@@ -18,9 +18,7 @@ Thanks for checking out this front-end engineering project.
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -43,8 +41,8 @@ It allows users to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](git@github.com:Kingsleigh-Obi/faq-accordion-main.git)
+- Live Site URL: [Add live site URL here](https://kingsleigh-obi.github.io/faq-accordion-main/)
 
 ## My Process
 
