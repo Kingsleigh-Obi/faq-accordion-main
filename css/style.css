@@ -69,7 +69,7 @@ body h1 {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 2px dotted lightgray;
+  
 }
 
 .last-item {
@@ -87,6 +87,25 @@ body h1 {
 .hide-plus-icon {
   display: none;
 }
+
+.faq-details {
+  border-bottom: 2px dotted lightgray;
+  padding-bottom: 20px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(292, 16%, 49%);
+  font-weight: 500;
+}
+
+.js-more-description {
+  display: hidden;
+}
+
+.feature:hover {
+  color: #AD28EB;
+}
+
 /* For the mobile design  */
 @media (max-width: 414px) {
   .box1 {
